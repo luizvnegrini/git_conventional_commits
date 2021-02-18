@@ -12,7 +12,8 @@ For the use of this repository we will take into account that you already have *
 To install commitilint just follow the step by step on the [official link](https://commitlint.js.org/#/guides-local-setup "official link").
 
 ### 3 - Install commitizen
-Run: `npm install -g commitizen`
+3.1 - Run: `npm install commitizen -g`
+3.2 - Run: `commitizen init cz-conventional-changelog --save-dev --save-exact`
 
 - After doing this, to make new commits just type in your terminal the command `cz` or `git cz` and you will have a new experience when making commits. Just follow the step by step in the terminal.
 
